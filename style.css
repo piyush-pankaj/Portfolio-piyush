@@ -1,0 +1,135 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: whitesmoke;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  padding: 5%;
+}
+.navbar {
+  padding-bottom: 5%;
+}
+.navbardiv{
+    justify-content: space-around;
+}
+.navabouttext {
+  text-decoration: none;
+  color: #000;
+  font-family: Roboto;
+}
+span.pspan {
+  color: #00abae;
+}
+
+a.navbar-atag {
+  font-size: 5vh;
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+}
+a.gitbtn {
+  border-radius: 10px;
+  padding: 2%;
+  background-color: #00abae;
+  color: white;
+  font-size: 60%;
+  text-decoration: none;
+}
+
+.maindiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.intro {
+  font-size: 200%;
+  padding-top: 3%;
+}
+.myskills {
+  display: flex;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+}
+.whatido {
+  display: flex;
+  justify-content: space-between;
+}
+.twitter {
+  display: flex;
+}
+.picture {
+  border-radius: 50%;
+  border: 15px solid #00abae;
+  width: 100%;
+}
+h1 {
+  font-weight: 900;
+  padding: 2% 0 2% 0;
+}
+#react{
+    padding: 1%;
+
+}
+#redux{
+    padding: 1%;
+}
+#express{
+    padding:1%;
+}
+#numpy{
+  padding:1%;
+  height: 62px;
+}
+#pandas{
+  padding:1%;
+  height: 62px;
+}
+#aws{
+    padding: 1%;
+    height: 62px;
+}
+#matplotlib{
+  padding: 1%;
+  height: 62px;
+}
+.tweetpro{
+    padding: 2% 2% 3% 0;
+}
+.projectpic {
+  width: 50%;
+}
+.hopeyou {
+  text-align: center;
+  padding: 2% 0 2% 0;
+}
+footer {
+  text-align: center;
+  padding: 5%;
+}
+#aemail{
+    text-decoration: none;
+}
+@media only screen and (max-width:600px){
+    .maindiv{
+        flex-direction: column-reverse;
+    }
+    .twitter{
+        flex-direction: column-reverse;
+    }
+    #whatidid{
+        flex-direction: column-reverse;
+    }
+    .projectpic{
+        width: 90%;
+    }
+    .whatido{
+      flex-direction: column-reverse;
+    }
+    
+}
